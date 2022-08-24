@@ -12,7 +12,9 @@ workbook.close()
 istCountries = []
 listCapital = []
 listCurrencies = []
-listArea = []
+listArea = []  
+
+
 
 url = requests.get("https://restcountries.com/v2/all")
 request = json.loads(url.content)
